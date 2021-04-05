@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { getAllEmployees } from '../../modules/DataManager'
+import { getAllEmployees, deleteEmployee } from '../../modules/DataManager'
 import { EmployeeCard } from './Employee'
 
 export const EmployeeList = () => {
@@ -12,13 +12,18 @@ export const EmployeeList = () => {
             })
     }
 
+    const handleDeleteEmployee = (id) => {
+        deleteEmployee(id)
+            .then(() => getAllEmployees().then(setEmployees))
+    }
+
     useEffect(() => {
         getEmployees()
     },[]);
 
     return (
         <div className="container-cards">
-            {employees.map(employee => <EmployeeCard key={employee.id} name={employee.name} position={employee.position} location={employee.location} />)}
+            {employees.map(employee => <EmployeeCard key={employee.id} id={employee.id} handleDeleteEmployee={handleDeleteEmployee} name={employee.name} position={employee.position} location={employee.location} />)}
         </div>
     )
 }
