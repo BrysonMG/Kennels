@@ -1,9 +1,14 @@
 import React from "react"
 import "./Animal.css"
 
-export const AnimalCard = ({name, breed}) => (
-    <section className="animal">
-        <h3 className="animal__name">{name}</h3>
-        <div className="animal__breed">Breed: {breed}</div>
-    </section>
+export const AnimalCard = ({ name, breed, id, handleDeleteAnimal }) => (
+    <div className="card">
+        <div className="card-content">
+            <h3>Name: <span className="card-petname">
+                {name}
+            </span></h3>
+            <p>Breed: {breed}</p>
+            <button type="button" onClick={() => handleDeleteAnimal(id)}>Discharge</button>
+        </div>
+    </div>
 )
