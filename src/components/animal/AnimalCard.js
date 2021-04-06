@@ -1,5 +1,6 @@
 import React from "react"
 import "./Animal.css"
+import { Link } from "react-router-dom";
 
 export const AnimalCard = ({ name, breed, id, handleDeleteAnimal }) => (
     <div className="card">
@@ -9,6 +10,9 @@ export const AnimalCard = ({ name, breed, id, handleDeleteAnimal }) => (
             </span></h3>
             <p>Breed: {breed}</p>
             <button type="button" onClick={() => handleDeleteAnimal(id)}>Discharge</button>
+            <Link to={`/animals/${id}`}>
+                <button>Details</button>
+            </Link>
         </div>
     </div>
 )

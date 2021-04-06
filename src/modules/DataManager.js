@@ -27,6 +27,9 @@ export const deleteLocation = (id) => {
 export const getAllOwners = () => {
     return fetch(`${remoteURL}/owners`)
         .then(res=>res.json())
+        .then(res=>{
+            console.log(res)
+        return res})
 }
 
 export const deleteOwner = (id) => {
