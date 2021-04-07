@@ -23,7 +23,7 @@ export const LocationList = () => {
 
     return (
         <div className="container-cards">
-            {locations.map(location => <LocationCard key={location.id} id={location.id} handleDeleteLocation={handleDeleteLocation} name={location.name} address={location.address} />)}
+            {locations.map(location => <LocationCard key={location.id} location={location} handleDeleteLocation={handleDeleteLocation} />)}
         </div>
     )
 }

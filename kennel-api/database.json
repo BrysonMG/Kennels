@@ -67,22 +67,26 @@
     {
       "id": 1,
       "name": "Nashville North",
-      "address": "111 Johnson Pike"
+      "address": "111 Johnson Pike",
+      "description": "A nice place North of Nashville"
     },
     {
       "id": 2,
       "name": "Nashville East",
-      "address": "222 Johnson Pike"
+      "address": "222 Johnson Pike",
+      "description": "A nice place East of Nashville"
     },
     {
       "id": 3,
       "name": "Nashville West",
-      "address": "333 Johnson Pike"
+      "address": "333 Johnson Pike",
+      "description": "A nice place West of Nashville"
     },
     {
       "id": 4,
       "name": "Nashville South",
-      "address": "444 Johnson Pike"
+      "address": "444 Johnson Pike",
+      "description": "A nice place South of Nashville"
     }
   ],
   "owners": [
