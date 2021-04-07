@@ -28,7 +28,7 @@ export const AnimalList = () => {
     // Finally we use .map() to "loop over" the animals array to show a list of animal cards
     return (
         <div className="container-cards">
-            {animals.map(animal => <AnimalCard key={animal.id} id={animal.id} name={animal.name} breed={animal.breed} handleDeleteAnimal={handleDeleteAnimal} />)}
+            {animals.map(animal => <AnimalCard key={animal.id} animal={animal} handleDeleteAnimal={handleDeleteAnimal} />)}
         </div>
     );
 };

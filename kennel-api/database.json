@@ -5,12 +5,14 @@
       "name": "Doodles",
       "breed": "Poodle",
       "locationId": 1,
-      ""
+      "ownerId": 1
     },
     {
       "id": 3,
       "name": "Esme",
-      "breed": "Pitbull"
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
     }
   ],
   "customers": [
