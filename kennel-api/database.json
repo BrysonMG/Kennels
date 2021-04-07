@@ -8,18 +8,39 @@
       "ownerId": 1
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Esme",
       "breed": "Pitbull",
       "locationId": 2,
       "ownerId": 2
-    }
-  ],
-  "customers": [
+    },
     {
-      "id": 1,
-      "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "id": 3,
+      "name": "Fawkes",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 4,
+      "name": "Luke",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sasha",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 6,
+      "name": "Tera",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
     }
   ],
   "employees": [
@@ -27,26 +48,51 @@
       "id": 1,
       "name": "Michael",
       "position": "Veterinarian",
-      "location": "Nashville Kennels North"
+      "locationId": 1
     },
     {
       "id": 2,
       "name": "Emily",
       "position": "Vet Nurse",
-      "location": "Nashville Kennels South"
+      "locationId": 4
     },
     {
       "id": 3,
       "name": "Ethan",
       "position": "Groomer",
-      "location": "Nashville Kennels North"
+      "locationId": 3
+    },
+    {
+      "name": "Bryson",
+      "position": "Owner",
+      "locationId": 2,
+      "id": 4
     }
   ],
   "locations": [
     {
       "id": 1,
       "name": "Nashville North",
-      "address": "8422 Johnson Pike"
+      "address": "111 Johnson Pike",
+      "description": "A nice place North of Nashville"
+    },
+    {
+      "id": 2,
+      "name": "Nashville East",
+      "address": "222 Johnson Pike",
+      "description": "A nice place East of Nashville"
+    },
+    {
+      "id": 3,
+      "name": "Nashville West",
+      "address": "333 Johnson Pike",
+      "description": "A nice place West of Nashville"
+    },
+    {
+      "id": 4,
+      "name": "Nashville South",
+      "address": "444 Johnson Pike",
+      "description": "A nice place South of Nashville"
     }
   ],
   "owners": [
