@@ -5,12 +5,25 @@ export const getAllEmployees = () => {
         .then(res=>res.json())
 }
 
+export const addEmployee = (newEmployee) => {
+    return fetch(`${remoteURL}/employees`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newEmployee)
+    }).then(response => response.json())
+}
+
 export const deleteEmployee = (id) => {
     return fetch(`${remoteURL}/employees/${id}`, {
         method: "DELETE"
     })
         .then(res=>res.json())
 }
+
+
+
 
 export const getAllLocations = () => {
     return fetch(`${remoteURL}/locations`)
@@ -22,6 +35,16 @@ export const getLocationById = id => {
         .then(res=>res.json())
 }
 
+export const addLocation = (newLocation) => {
+    return fetch(`${remoteURL}/locations`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newLocation)
+    }).then(response => response.json())
+}
+
 export const deleteLocation = (id) => {
     return fetch(`${remoteURL}/locations/${id}`, {
         method: "DELETE"
@@ -29,9 +52,23 @@ export const deleteLocation = (id) => {
         .then(res=>res.json())
 }
 
+
+
+
+
 export const getAllOwners = () => {
     return fetch(`${remoteURL}/owners`)
         .then(res=>res.json())
+}
+
+export const addOwner = (newOwner) => {
+    return fetch(`${remoteURL}/owners`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newOwner)
+    }).then(response => response.json())
 }
 
 export const deleteOwner = (id) => {
@@ -42,6 +79,6 @@ export const deleteOwner = (id) => {
 }
 
 export const getAllCustomers = () => {
-    return fetch(`${remoteURL}/customers`)
+    return fetch(`${remoteURL}/owners`)
         .then(res=>res.json())
 }
