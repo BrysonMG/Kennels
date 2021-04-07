@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { CustomerCard } from './Customer'
-import { getAllOwners, getAllCustomers } from '../../modules/DataManager'
+import { getAllOwners } from '../../modules/DataManager'
 
 export const CustomerList = () => {
     const [customers, setCustomers] = useState([])

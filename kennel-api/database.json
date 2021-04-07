@@ -8,18 +8,39 @@
       "ownerId": 1
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Esme",
       "breed": "Pitbull",
       "locationId": 2,
       "ownerId": 2
-    }
-  ],
-  "customers": [
+    },
     {
-      "id": 1,
-      "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "id": 3,
+      "name": "Fawkes",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 4,
+      "name": "Luke",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sasha",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 6,
+      "name": "Tera",
+      "breed": "Pitbull",
+      "locationId": 2,
+      "ownerId": 2
     }
   ],
   "employees": [
@@ -46,7 +67,22 @@
     {
       "id": 1,
       "name": "Nashville North",
-      "address": "8422 Johnson Pike"
+      "address": "111 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville East",
+      "address": "222 Johnson Pike"
+    },
+    {
+      "id": 3,
+      "name": "Nashville West",
+      "address": "333 Johnson Pike"
+    },
+    {
+      "id": 4,
+      "name": "Nashville South",
+      "address": "444 Johnson Pike"
     }
   ],
   "owners": [
