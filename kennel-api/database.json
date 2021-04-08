@@ -2,10 +2,10 @@
   "animals": [
     {
       "id": 1,
-      "name": "Doodles",
+      "name": "Edit test",
       "breed": "Poodle",
-      "locationId": 1,
-      "ownerId": 1
+      "locationId": 2,
+      "ownerId": 2
     },
     {
       "id": 2,
@@ -100,25 +100,34 @@
       "id": 1,
       "name": "Dean",
       "phoneNumber": "111-111-1111",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "1@1"
     },
     {
       "id": 2,
       "name": "Sam",
       "phoneNumber": "222-222-2222",
-      "address": "123 Pet Park"
+      "address": "123 Pet Park",
+      "email": "2@2"
     },
     {
       "id": 3,
       "name": "Kathy",
       "phoneNumber": "333-333-3333",
-      "address": "555 Fox Ln"
+      "address": "555 Fox Ln",
+      "email": "3@3"
     },
     {
       "id": 4,
       "name": "Sarah",
       "phoneNumber": "444-444-4444",
-      "address": "987 Water Way"
+      "address": "987 Water Way",
+      "email": "4@4"
+    },
+    {
+      "email": "test@test",
+      "name": "Test Test",
+      "id": 5
     }
   ]
 }
